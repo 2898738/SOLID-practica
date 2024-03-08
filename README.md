@@ -36,7 +36,7 @@ y, si es así, que intentes corregirlo.
 Tu objetivo es hacer la modificación que te han pedido, actualizando el
 método *getSize()* de la clase **Directory** y después detectar los
 principios SOLID que no está cumpliendo el código y tratar de corregirlos. 
-Debes concentrarte solo en los paquetes **com.kreitek.files** y
+Debes concentrarte solo en los paquetes **com.kreitek.items** y
 **com.kreitek.service**. No hay que modificar la función *main()* ni el
 contenido del paquete **com.kreitek.utils**, ya que este solo tiene clases
 que se usan para comprobar que el código sigue funcionando de la forma

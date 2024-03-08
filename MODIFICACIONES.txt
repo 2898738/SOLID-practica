@@ -1,0 +1,24 @@
+_______________________________________________________________________________________________________________________________________
+Primera modificacion:
+
+Se refactoriza el proyecto para cambiar el nombre del paquete 'files' a 'items', se agregan dos paquetes nuevos, 'directories'
+y 'files', se agregan las clases 'Directory' y 'File' a sus respectivos paquetes.
+
+Se crean las interfaces 'DirectoryItem' y 'FileItem' para que las clases 'Directory' y 'File' implementen estas interfaces,
+estas interfaces a su vez extienden de la interfaz 'FileSystemItem'.
+
+Se realiza la segregacion de la interfaz 'FileSystemItem' en las interfaces 'DirectoryItem' y 'FileItem' para que las clases
+'Directory' y 'File' implementen solo los metodos que necesitan.
+
+Se refactoriza la clase padre 'FileSystemItemBase' con los metodos que son comunes a las clases 'Directory' y 'File' incluidos
+en la interfaz 'FileSystemItem'.
+
+Se realizan las primeras refactorizaciones para incluir las nuevas interfaces a las clases incluidas en los paquetes 'service' y
+'utils', mejorando asi la inversion de dependencias.
+
+Principios aplicados:
+- Principio de segregacion de interfaces
+- Principio de inversion de dependencias
+- Principio de sustitucion de Liskov
+
+_________________________________________________________________________________________________________________________________________
